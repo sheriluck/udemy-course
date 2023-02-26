@@ -4,36 +4,24 @@
 <head>
     <title>Document</title>
     <style>
-        div {
-            /* background-color: rgb(237, 233, 240); */
-
+        div{
+            border:solid rebeccapurple 5px;
+            
+             display: inline-block;  /* when we have 'diplay:inline' width height and margin top and bottom float properties have no effect/* */
+            width: 100px;
+            height: 100px;  /* only block and inline-block diplay will work with above properties*/
         }
-
-        body {
-            background-image: url("../images/favicons/background.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            /* background-position: center center; */
-            /*height: 200px; ; */
-        }
-
-        div.border {
-            border: 10px rgb(53, 216, 225) solid;
-            /* border-radius: 50%; 
-            border-top-left-radius: 16%;
-            border-top-right-radius: 50%;
-            border-bottom-right-radius: 50%;
-             border-bottom-left-radius: 50%;  we can write it either separately above method  */
-             border-radius: 16% 50% 50% 50%;   /* or this way together on ur left side */
-            width: 200px;
-            height: 200px;
-        }
+        
     </style>
 </head>
 
 <body>
+    
     <div class="border">
-        hello bijjli giranay mai ho aai
+    block and inline-block diplay
+    </div>
+    <div class="border">
+    block and inline-block diplay
     </div>
 
 </body>
