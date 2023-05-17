@@ -1,0 +1,47 @@
+body{
+    background-color:rgb(225, 220, 220);
+    /* background-image:url("images/sugar\ cookie\ .jpeg") ; */
+    
+}
+#box {
+display:inline-block;
+/* width: 200px;
+height: 200px; */
+margin: 50px auto;
+background-color: rgb(192, 192, 193, .5);
+color: brown;
+text-align: center;
+padding: 25px;
+/* border-radius: 43px 50px;
+border: solid cornsilk 1px; */
+}
+.section{
+    box-sizing:content-box;
+    border: solid blue 2px;
+    width: 100%;
+    background-color: aqua;
+    float: right;
+}
+
+.floating-img{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 10px;
+    border: 1px solid rgb(29, 42, 3);
+    box-shadow: 0 0 5px rgb(244, 6, 42);
+}
+.float-left{
+    float:left;
+    box-sizing: border-box;
+    border: seagreen solid 2px;
+    margin: 2px;
+
+}
+.float-right{
+    float:right;
+    box-sizing: border-box;
+    border: seagreen solid 2px;
+    margin: 2px;
+
+}
